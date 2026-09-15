@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ParBa - Votre assistante</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="Maquete.css">
+
+    <!-- Police -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header class="header">
+
+        <div class="logo">
+            ParBa
+        </div>
+
+        <nav class="navigation">
+            <a href="#accueil" class="active">Accueil</a>
+            <a href="#apropos">À propos</a>
+            <a href="#partenaires">Partenaire</a>
+            <a href="#temoignages">Témoignage</a>
+            <a href="#contact">Contact</a>
+        </nav>
+
+        <div class="auth">
+            <a href="#">Connexion</a>
+            <a href="#">Inscription</a>
+        </div>
+
+    </header>
+    <section id="accueil" class="hero">
+
+        <div class="hero-content">
+
+            <div class="hero-text">
+                <p>Votre assistante !</p>
+
+                <h1>ParBa</h1>
+
+                <p class="description">
+                    La gestion des remplacements 
+                    est devenue un enjeu structurant
+                    pour les établissements
+                    sanitaires et médico-sociaux.
+                </p>
+            </div>
+
+            <div class="hero-image">
+                <img src="Tech Life Remote Life.png" alt="Illustration ParBa">
+            </div>
+
+        </div>
+
+        <div class="hero-buttons">
+            <button class="btn-primary">
+                Commencer
+             <i class="fa-solid fa-cloud-arrow-up"></i>
+            </button>
+
+            <button class="btn-secondary">
+                Mon réseau
+        <i class="fa-solid fa-chevron-down"></i> 
+            </button>
+        </div>
+
+    </section>
+    <section id="apropos" class="about">
+
+        <h2>ParBa</h2>
+
+        <p class="about-intro">
+            La gestion des remplacements est devenue un enjeu structurant
+            pour les établissements sanitaires et médico-sociaux.
+        </p>
+
+        <div class="about-text">
+
+            <p>
+                Face à l’absentéisme et ou l’accroissement temporaire
+                d’activité imprévisible dans le temps, la gestion des
+                remplacements est devenue un enjeu structurant pour les
+                établissements sanitaires et médico-sociaux.
+                Les outils actuels sont chronophages et peu efficients.
+                ParBa propose une solution digitale simple et efficace,
+                adaptée aux besoins de toutes les structures.
+            </p>
+
+            <p>
+                ParBa a été pensé pour révolutionner la gestion des
+                ressources humaines dans la santé. Cette solution de
+                pilotage des absences et des remplacements de personnel,
+                100% en ligne permet aux établissements sanitaires et
+                médico-sociaux de gérer leur personnel
+                (agents, salariés et vacataires).
+            </p>
+
+        </div>
+
+    </section>
+    <section id="partenaires" class="partners">
+        <div class="section-title">
+            <div class="line"></div>
+            <h2>Nos partenaires</h2>
+        </div>
+        <div class="partner-box">
+
+            <button class="arrow left" aria-label="precedent">
+         &#9664;
+            </button>
+            <div class="partner-logos">
+                <img src="BOOSTER LOGO-2.png" alt="Partenaire 1">
+                <img src="BOOSTER LOGO.png" alt="Partenaire 2">
+                <img src="Defarsci.jpeg" alt="DEFAR Sci">
+
+            </div>
+
+            <button class="arrow right" aria-label="suivant">
+                &#9654;
+            </button>
+
+        </div>
+
+    </section>
+    <section id="temoignages" class="testimonials">
+
+        <h2>Ils nous font confiance !</h2>
+
+        <div class="testimonial-container">
+            <button class="arrow testimonial-left" aria-label="precedent">
+               &#9664;
+            </button>
+
+            <div class="testimonial-card">
+
+                <img src="Ellipse 1.png" alt="Adams Smith">
+
+                <h3>Adams Smith</h3>
+                <span>General manager</span>
+
+                <p>
+                    Lorem ipsum dolor sit amet,
+                    consectetur adipiscing elit.
+                    Aenean id in posuere id leo,
+                    auctor aliquam feugiat
+                    fermentum. Aliquam integer
+                    ullamcorper tortor ac quis
+                    tortor. Pulvinar nisl sed.
+                </p>
+
+            </div>
+
+
+            <div class="testimonial-card">
+
+                <img src="Ellipse 2.png" alt="Juliette Faye">
+
+                <h3>Juliette Faye</h3>
+                <span>Self Care</span>
+
+                <p>
+                    Lorem ipsum dolor sit amet,
+                    consectetur adipiscing elit.
+                    Aenean id in posuere id leo,
+                    auctor aliquam feugiat
+                    fermentum. Aliquam integer
+                    ullamcorper tortor ac quis
+                    tortor. Pulvinar nisl sed.
+                </p>
+
+            </div>
+
+            <button class="arrow testimonial-right" aria-label="suivant">
+               &#9654;
+            </button>
+
+        </div>
+
+    </section>
+    <section id="contact" class="contact">
+
+        <div class="section-title">
+            <div class="line"></div>
+            <h2>Contact</h2>
+        </div>
+
+        <form class="contact-form">
+
+            <label for="nom">Nom complet</label>
+            <input type="text" id="nom">
+
+            <label for="structure">Structure</label>
+            <input type="text" id="structure">
+
+            <label for="email">Adresse mail</label>
+            <input type="email" id="email">
+
+            <label for="message">Message</label>
+            <textarea id="message"></textarea>
+
+        </form>
+
+    </section>
+    <footer class="footer">
+
+        <div class="footer-content">
+            <div class="footer-column">
+
+                <h3>ParBa</h3>
+
+                <p>
+                    Lorem ipsum dolor sit amet,<br>
+                    consectetur adipiscing elit.
+                    Nunc <br>auctor est et ultricies.
+                    Lorem ipsum dolor sit amet,
+                    consectetur <br> adipiscing elit. adipiscing elit Nunc auctor est et ultricies
+                </p>
+
+            </div>
+
+
+            <div class="footer-column">
+
+                <h3>À Propos</h3>
+
+                <p>
+            Lorem ipsum dolor sit amet, consectetur <br>adipiscing elit.
+            Euismod dignissim tortor <br>nam tincidunt donec.
+            Vulputate tortor <br>nulla aliquam sed scelerisque.
+            Nunc, diam <br> vestibulum purus eu.
+            Eu placerat vitae at.
+                </p>
+
+            </div>
+            </div>
+            <div class="social">
+            <a href="https://www.facebook.com">
+        <i class="fab fa-facebook"></i></a>
+            <a href="https://www.instagram.com">
+        <i class="fab fa-instagram"></i></a>
+            <a href="https://www.twitter.com">
+        <i class="fab fa-twitter"></i></a>
+            <a href="https://www.linkedin.com">
+        <i class="fab fa-linkedin"></i></a>
+        </div>
+        <div class="footer-social">
+            <a href="https://www.facebook.com">
+        <i class="fab fa-facebook"></i></a>
+            <a href="https://www.instagram.com">
+        <i class="fab fa-instagram"></i></a>
+            <a href="https://www.twitter.com">
+        <i class="fab fa-twitter"></i></a>
+            <a href="https://www.linkedin.com">
+        <i class="fab fa-linkedin"></i></a>
+        </div>
+        <div class="copyright">
+            COPYRIGHT 2021 | DEFAR SCI &nbsp; Tout droit réservés
+        </div>
+
+    </footer>
+
+</body>
+</html>
